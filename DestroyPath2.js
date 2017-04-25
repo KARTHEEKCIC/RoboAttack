@@ -1,8 +1,9 @@
+var deleteEdges = [];
+
 function DestroyPath(noOfVertices,noOfRobots,NoOfEdges,edges,robotPosition) {
 
 var NoOfEdges;
 var minTime = 0; /* Minimum time required to destroy the paths */
-var deleteEdges = [];
 
 /* function to make every vertex into a set*/
 function MakeSet(v) {
